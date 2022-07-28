@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f051742d528ae449b623360e0ce1f6, type: 3}
+  m_Name: DefaultCreateSetting
+  m_EditorClassIdentifier: 
+  m_cubePrefab: {fileID: 7329945030524956272, guid: dbf7158e4ce6d0d41afdb3c7a8f59638, type: 3}
+  m_material: {fileID: 2100000, guid: 71cd7656f9354ff48a1de62e1c0df25f, type: 2}
+  m_createPos: {x: 0, y: 0, z: 1}
