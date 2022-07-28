@@ -23,6 +23,14 @@ public class EditorCreateObj : EditorWindow
         GUILayout.FlexibleSpace();
         EditorGUILayout.EndHorizontal();
 
+
+        EditorGUILayout.Space(20);
+        EditorGUILayout.BeginVertical();
+        EditorGUILayout.PrefixLabel("物体设置");
+        m_createSetting = (CreateSetting)EditorGUILayout.ObjectField("",m_createSetting,typeof(CreateSetting),true);
+        EditorGUILayout.EndVertical();
+
+
         EditorGUILayout.BeginHorizontal();
         if (GUILayout.Button("生成物体"))
         {
