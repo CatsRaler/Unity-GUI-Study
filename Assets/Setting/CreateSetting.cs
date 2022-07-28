@@ -14,4 +14,9 @@ public class CreateSetting : ScriptableObject
     //物体生成位置
     public Vector3 m_createPos;
 
+    //随机生成物体范围
+    public float x_Range;
+    public float y_Range;
+    public float z_Range;
+
 }

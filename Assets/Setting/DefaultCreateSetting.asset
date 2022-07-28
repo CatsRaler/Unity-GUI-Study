@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_cubePrefab: {fileID: 7329945030524956272, guid: dbf7158e4ce6d0d41afdb3c7a8f59638, type: 3}
   m_material: {fileID: 2100000, guid: 71cd7656f9354ff48a1de62e1c0df25f, type: 2}
-  m_createPos: {x: 1, y: 2, z: 1}
+  m_createPos: {x: 0, y: 0, z: 0}
+  x_Range: 4
+  y_Range: 4
+  z_Range: 4
